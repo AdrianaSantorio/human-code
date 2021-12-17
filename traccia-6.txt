@@ -1,0 +1,30 @@
+
+Contare i posti a tavola di 2 in 2
+Ci s(t)iamo tutti?
+Per il pranzo di Natale, diamo una mano a nonna per preparare la tavola: zio Rino, la piccola Emy, zia Lucia e nonno Carlo… siamo davvero in tanti!
+Non sarà un pranzo formale, perciò non servono i segnaposto con i nomi, però dobbiamo verificare che ci sia una sedia per ciascuno. Per essere più rapidi contiamo i posti a tavola di 2 in 2 e ci accorgiamo che avevamo dimenticato un piatto!
+
+
+INIZIO
+1.Controllo la lista degli invitati
+2.CI SONO DUE PERSONE IN PIEDI?
+    SE
+        si -> 
+                3.CI SONO DUE SEDIE LIBERE A TAVOLA?
+                    SE
+                        si -> 3a.Faccio sedere due persone
+                            -> torno al punto 1
+                        no -> 3b.Aggiungo due sedie
+                            -> vado a 3a
+        no -> 
+                4.C'è una persona in piedi?
+                    SE
+                        si -> 5.c'è una sedia libera a tavola?
+                                SE
+                                    si -> 5a.faccio sedere una persona
+                                        -> fine
+                                    no -> 5b.Aggiungo una sedia
+                                        ->vado a 5a
+
+                            
+                        no ->fine                
